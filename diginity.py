@@ -17,5 +17,6 @@ def digin():
                 summ += int(i)
         print(summ)
         print("opor")
+        print("earth")
 digin()
 
