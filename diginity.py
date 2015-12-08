@@ -18,5 +18,6 @@ def digin():
         print(summ)
         print("opor")
         print("earth")
+        print("man")
 digin()
 
