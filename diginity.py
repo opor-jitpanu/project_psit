@@ -19,5 +19,6 @@ def digin():
         print("opor")
         print("earth")
         print("man")
+        print("psit")
 digin()
 
