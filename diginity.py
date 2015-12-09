@@ -16,7 +16,7 @@ def digin():
             for i in str_num:
                 summ += int(i)
         print(summ)
-        print("opor")
+        print("opor_2")
         print("earth")
         print("man")
         print("psit")
