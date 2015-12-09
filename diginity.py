@@ -19,6 +19,7 @@ def digin():
         print("opor_2")
         print("earth")
         print("man")
+        print("bank")
         print("psit")
 digin()
 
