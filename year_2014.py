@@ -1,4 +1,4 @@
-def year_2014_12():
+def year_2014_12(inj):
     
     
     date = ['2014-12-16', '2014-12-16', '2014-12-16', '2014-12-16', '2014-12-10', '2014-12-09', '2014-12-06', '2014-12-05', '2014-12-04', '2014-12-04', '2014-12-04', '2014-12-01', '2014-12-01', '2014-12-01', '2014-12-01', '2014-12-01']
@@ -7,7 +7,11 @@ def year_2014_12():
     fata = ['0', '0', '0', '0', '0', '1', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0']
     inju = ['0', '0', '0', '0', '3', '0', '2', '0', '1', '0', '0', '0', '2', '0', '0', '0']
     target = ['Police,Police', 'Police', 'PrivateCitizens&Property', 'Police', 'Military', 'Government(General)', 'Police', 'Military,EducationalInstitution', 'Police', 'Government(General)', 'PrivateCitizens&Property', 'Police', 'Business', 'Police', 'Business', 'Government(General)']
-
+    inj = 0
+    for i in inju:
+        inj += int(i)
+    return inj
+    
 def year_2014_11():
     date = ['2014-11-27', '2014-11-25', '2014-11-18', '2014-11-17', '2014-11-15', '2014-11-15', '2014-11-15', '2014-11-12', '2014-11-11', '2014-11-11', '2014-11-10', '2014-11-10', '2014-11-10', '2014-11-05', '2014-11-03', '2014-11-02', '2014-11-02', '2014-11-01']
     city = ['TanyongTalo', 'Waeng', 'RuamThaiPattana', 'SiSakhon', 'BanBluKa', 'KhokPhodistrict', 'Betongdistrict', 'Aiyoeweng', 'KhaoTum', 'BannangSatadistrict', 'Ruesodistrict', 'ChoengKhiri', 'Wat', 'SungaiPadidistrict', 'Talubo', 'Muangdistrict', 'TakBaidistrict', 'ThaMuang']
@@ -32,4 +36,18 @@ def year_2014_09():
     inju = ['2', '0', '1', '2', '0', '0', '0', '0', '5', '0', '0']
     target = ['Military,EducationalInstitution', 'Government(General)', 'Police,EducationalInstitution', 'Police,EducationalInstitution', 'Military', 'Transportation', 'PrivateCitizens&Property', 'Government(General)', 'Government(General),Other,PrivateCitizens&Property', 'Government(General)', 'Transportation']
 
+    
+def test():
+    print("enter year or type all for all")
+    year = input()
+    if year == '2014':
+        print('enter your mont or type all for all')
+        mont = input()
+        if mont == '12':
+            inj = 99
+            year_2014_12(inj)
+            print(inj)
+            
+            
+test()
     
