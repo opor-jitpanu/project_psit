@@ -10,7 +10,7 @@ def main(word):
         date.append(lis[1])
         city.append(lis[3])
         per.append(lis[4])
-        fat.append([lis[5]])
+        fat.append(lis[5])
         inj.append(lis[6])
         tar.append(lis[7])
         
