@@ -21,14 +21,51 @@ def year_2012_10():
 
 
 def year_2012_09():
+    city =['Rueso district','Bacho district','Pohon Jerai','Raman district','Raman district','Yingodistrict', 'Bachodistrict', 'BanRi-Ngae', 'SaiBuri', 'SaiBuri', 'SatengNok', 'SatengNok', 'Kalisa', 'BangoSato', 'Bachodistrict', 'Lamphu', 'BanJohwa', 'BanJohwa', 'BangNak', 'BanKaena', 'Tanyongmat']
+    fata = ['0','1','0','2','0','0', '0', '0', '0', '6', '0', '4', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+    inju = ['0','23','4','0','0','2', '4', '1', '0', '40', '0', '0', '1', '3', '1', '4', '0', '0', '5', '1', '1']
+
+def year_2012_08():
+    city =['Muang Narathiwat','Bannang Sata','Raman district','Cho-airong district','Chalerm','Chalerm','Chalerm','Nong Chik district','Yarang district','Panare','Bo Thong','Tuyong','Tuyong','Tuyong','Bang Khao','Bang Khao','Khok Pho','Khok Pho','Sai Buri district','Suwari','Ban To Deng','Sungai Padi district','Korlortanyong','Khok Pho','Ban Ba Ngo Mu long','Kawa','Khao Tum','Tak Bai district','Pase Yawo','Mayo district']
+    fata = ['0','1','1','1','1','0','1','1','0','0','0','0','0','0','0','0','0','0','1','0','0','0','0','0','0','0','0','0','1','1']
+    inju = ['0','0','0','1','1','0','1','0','5','0','0','0','0','0','0','0','0','0','0','0','0','0','3','4','2','0','9','0','0','0']
+
+
+def year_2012_07():
+    city =[]
+    fata = []
+    inju = []
+
+def year_2012_06():
+    city =[]
+    fata = []
+    inju = []
+
+def year_2012_05():
     city =[]
     fata = []
     inju = []
 
 
+def year_2012_04():
+    city =[]
+    fata = []
+    inju = []
 
+def year_2012_03():
+    city =[]
+    fata = []
+    inju = []
 
+def year_2012_02():
+    city =[]
+    fata = []
+    inju = []
 
+def year_2012_01():
+    city =[]
+    fata = []
+    inju = []
 def test():
     print("enter year or type all for all")
     year = input()
