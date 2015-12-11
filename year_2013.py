@@ -80,6 +80,22 @@ def year_2013_08():
 
 def year_2013_07():
 
+    city = ['BannangSataDistrict', 'BannangSatadistrict', 'Yaha', 'Unknown', 'Bangkok', 'LamMai', 'BetongDistrict', 'Unknown', 'Unknown', 'Chanae', 'Yaring', 'Wat', 'DusongPayae', 'KhokPhoDistrict', 'Cho-airong', 'KhueanBangLang', 'BannangSataDistrict', 'Balo', 'KgRawa', 'KhlongChang', 'KampongBuke', 'KampongBuke', 'BanYo', 'ChanaeDistrict', 'RamanDistrict', 'BannangSataDistrict', 'BannangSataDistrict', 'BanSala'] 
+    fata = ['0', '0', '1', '0', '0', '0', '1', '2', '3', '2', '1', '0', '2', '0', '0', '0', '1', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0']
+    inju = ['1', '1', '0', '2', '0', '2', '0', '0', '0', '3', '0', '1', '0', '0', '2', '1', '0', '8', '8', '0', '5', '0', '1', '3', '2', '0', '1', '2']
+    
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
+
+def year_2013_07():
+
     city = [] 
     fata = []
     inju = []
@@ -93,5 +109,36 @@ def year_2013_07():
         fat += int(j)
     all_list = [inj,fat]
     return all_list
+
+def year_2013_07():
+
+    city = [] 
+    fata = []
+    inju = []
     
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
+
+def year_2013_07():
+
+    city = [] 
+    fata = []
+    inju = []
+    
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
     
