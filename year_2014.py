@@ -1,13 +1,12 @@
+from nvd3 import stackedAreaChart
 def year_2014_12():
-    
-    
- 
+
     city = ['Bachodistrict', 'Bachodistrict', 'Bachodistrict', 'Kabangdistrict', 'Riang', 'Mayo', 'BannangSata', 'ThaKamcham', \
             'MuangYaladistrict', 'BanKhaoDin', 'BangoSato', 'Yupo', 'Unknown', 'Unknown', 'Sawo', 'PlongHoi']
  
     fata = ['0', '0', '0', '0', '0', '1', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0']
     inju = ['0', '0', '0', '0', '3', '0', '2', '0', '1', '0', '0', '0', '2', '0', '0', '0']
- 
+    
     inj = 0
     fat = 0
     list_test = []
@@ -77,7 +76,15 @@ def year_2014_08():
             'ThungYangDaengdistrict', 'TakBaidistrict', 'Yahadistrict', 'Mayodistrict', 'Wankra', 'BueRe', 'Yahadistrict']
     fata = ['1', '1', '1', '0', '1', '0', '0','0', '0', '0', '1', '2', '0', '0', '1', '2', '0', '0', '0', '2']
     inju = ['0', '2', '1', '1', '0', '0', '0','2', '2', '0', '2', '0', '1', '4', '0', '1', '3', '5', '1', '0']
-
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 def year_2014_07():
     city = ['Rueso', 'TohBala', 'NongChikdistrict', 'Sukhirindistrict', 'LamMai', 'Betong', 'ThaKham', 'NaPradu', \
             'Panaredistrict','RusaMilae', 'TanyongMat', 'TanyongMat', 'TanyongMat', 'Unknown', 'ThungYangDaengdistrict', \
@@ -87,6 +94,15 @@ def year_2014_07():
             '1', '0', '3', '2', '0', '0', '0', '0', '1', '0', '0']
     inju = ['1', '5', '0', '3', '1', '35', '0', '8', '0','3', '0', '0', '0', '5', '0', '5', '1', '0', \
             '1', '1', '0', '5', '6', '1', '2', '1', '0', '1']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def year_2014_06():
     city = ['BanThaMuang', 'Unknown', 'TanyongMat', 'TanyongMat', 'BanTaba', 'Yamu', 'SiSakhon', \
@@ -98,7 +114,15 @@ def year_2014_06():
             '1', '0', '1', '0', '0', '0', '0', '1', '2', '1', '2', '0', '1']
     inju = ['1', '0', '0', '0', '2', '2', '5', '0', '2', '0', '0', '0', '1', '1', \
             '2', '2', '0', '2', '5', '2', '0', '0', '0', '0', '0', '0', '1']
-    
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def year_2014_05():
     city = ['Yahadistrict', 'Yahadistrict', 'KhokPhodistrict', 'Bachodistrict', \
@@ -116,6 +140,15 @@ def year_2014_05():
     inju = ['0', '0', '10', '1', '0', '0', '0', '2', '0', '0', '0', '1', '3', '5', '3', '1', '0', '1', '3', \
             '10', '10', '0', '0', '0', '0', '0', '0', '0', '0', '0', '5', '0', '0', '0', '0', '0', '0', '0', \
             '0', '0', '0', '0', '9', '0', '0', '1', '0', '0', '0', '2', '0', '0', '0', '0','0', '0', '0', '0', '0', '5', '1']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def year_2014_04():
     city = ['SanKamphaengdistrict', 'Yingodistrict', 'SiSakhondistrict', 'WasukriBeach', 'Nonthaburi', \
@@ -126,6 +159,15 @@ def year_2014_04():
             '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '3', '1']
     inju = ['0', '0', '1', '15', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '1', '0',\
             '2', '0', '0', '0', '0', '6', '6', '6', '6', '2', '0', '0', '0', '4']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def year_2014_03():
     city = ['NaPradu', 'Samakkhi', 'Riang', 'Bangkok', 'Nonthaburi', 'MaeSotdistrict', 'ChaengWattana', \
@@ -143,6 +185,15 @@ def year_2014_03():
     inju = ['0', '2', '3', '0', '0', '0', '0', '0', '3', '0', '0', '0', '1', '0', '0', '0', '0', '0', '4', '0', '0', '0', \
             '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '3', '0', '0', '3', '0', '2', '1', '1', '0', '1', \
             '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '1']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def year_2014_02():
     city = ['Piyamumang', 'SanamBinnam', 'Bangkok', 'Riko', 'BanlamohNok', 'Bangkok', 'Bangkok', 'BanNamYen', 'Ache', 'BanPulamong',\
@@ -158,8 +209,17 @@ def year_2014_02():
     inju = ['1', '0', '0', '1', '2', '0', '0', '0', '0', '0', '0', '2', '2', '3', '0', '0', '0', '0', '0', '21', '0', '0', '30', '6', '2',\
             '0', '2', '1', '0', '3', '0', '3', '0', '0', '0', '2', '0', '4', '6', '0', '6', '0', '0', '2', '2', '3', '2', '0', '0', '0', '0',\
             '2', '0', '0', '0', '7', '2', '3', '0']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
-def year_2012_01():
+def year_2014_01():
     city = ['Bangkok', 'BanMaPring', 'Yahadistrict', 'Rueso', 'SiSakhondistrict', 'LamMai', 'Bangkok', 'Kawa', 'Rangaedistrict',\
             'Bangkok', 'MuangNarathiwatdistrict', 'Yarangdistrict', 'Panare', 'ThanTodistrict', 'UdonThaniMuangdistrict', 'ChiangMaidistrict',\
             'SiSakhondistrict', 'Rangaedistrict', 'MaruboOk', 'Unknown', 'Bangkok', 'Bangkok', 'Cha-amdistrict', 'Bangkok', 'Bangkok',\
@@ -170,36 +230,138 @@ def year_2012_01():
             '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '1', '0', '0']
     inju = ['2', '0', '2', '1', '0', '0', '0', '0', '0', '1', '0', '1', '2', '3', '1', '0', '2', '3', '5', '1', '14', '14', '0', '2', '36',\
             '0', '0', '0', '0', '2', '1', '1', '0', '2', '0', '0', '0', '0', '1', '4', '4', '1', '1', '0', '0', '0', '1', '1', '0', '0', '1']
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [inj,fat]
+    return all_list
 
 def test():
     print("enter year")
     year = input()
     if year == '2014':
-        print('enter your mont')
-        mont = input()
-        if mont == '12':
-            j = year_2014_12()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '10':
-            j = year_2014_10()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '11':
-            j = year_2014_11()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '09':
-            j = year_2014_09()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
+        mo = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE',\
+              'JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER']
+        list_inj = []
+        list_fata = []
+        j = year_2014_12()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+        
+        j = year_2014_10()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+        
+        j = year_2014_11()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+        
+        j = year_2014_09()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_08()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_07()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_06()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_05()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_04()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_03()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_02()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        j = year_2014_01()
+        inj = j[0]
+        fata = j[1]
+        list_inj.append(inj)
+        list_fata.append(fata)
+        print('all in jur in mont =', inj)
+        print('all fata in mont =', fata)
+
+        print(list_inj)
+        print(list_fata)
+
+        
+        chart = stackedAreaChart(name='stackedAreaChart', height=400, width=400)
+
+        xdata = [1,2,3,4,5,6,7,8,9,10,11,12,]
+        ydata = list_inj
+        ydata2 = list_fata
+
+        extra_serie = {"tooltip": {"y_start": "There is ", "y_end": " min"}}
+        chart.add_serie(name="inj", y=ydata, x=xdata, extra=extra_serie)
+        chart.add_serie(name="fata", y=ydata2, x=xdata, extra=extra_serie)
+        chart.buildhtml()
+
+
+        text_file = open("Output.html", "w")
+        text_file.write(chart.htmlcontent)
+        text_file.close()
 test()
     
