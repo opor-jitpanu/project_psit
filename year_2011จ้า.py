@@ -87,7 +87,67 @@ def year_2011_6():
     fata = ['2', '1', '1', '1', '0', '1', '1', '1', '1', '0']
     inju = ['10', '0', '0', '1', '1', '0', '1', '5', '0', '0']
 
+def year_2011_5():
+    
+    
+ 
+    city = ['Saiburi', 'Saiburi', 'Sungai Padi', 'Sungai Padi', 'Yala', 'Unknown', 'Ban Cho Ai Rong'\
+            , 'Kapaw', 'Unknown', 'Pattani', 'Bannang Sata', 'Bannang Sata']
 
 
+ 
+    fata = ['1', '1', '0', '0', '2', '2', '1', '4', '1', '0', '2', '4']
+    inju = ['2', '0', '9', '0', '2', '0', '2', '7', '0', '0', '0', '15']
+
+def year_2011_4():
+    
+    
+ 
+    city = ['Ra-ngae', 'Panareh', 'Sungai Padi', 'Rusoh', 'Bannang Sata', 'Janae', 'Muang', 'Nong Chik']
 
 
+ 
+    fata = ['1', '0', '1', '0', '1', '2', '2', '1']
+    inju = ['0', '0', '0', '1', '0', '0', '1', '0']
+
+def year_2011_3():
+    
+    
+ 
+    city = ['Bannang Sata', 'Rusoh', 'Raman', 'Muang', 'Raman', 'Betong', 'Raman', 'Rusoh', 'Unknown'\
+            , 'Unknown', 'Muang', 'Thungyangdaeng', 'Si Sakhon', 'Panareh', 'Khok Pho', 'Saiburi']
+
+
+ 
+    fata = ['0', '1', '1', '1', '1', '1', '1', '2', '1', '1', '1', '1', '0', '1', '1', '0']
+    inju = ['1', '0', '1', '0', '0', '1', '0', '3', '1', '0', '0', '0', '2', '1', '2', '1']
+
+def year_2011_2():
+    
+    
+ 
+    city = ['Muang', 'Muang', 'Muang', 'Cho I Rong', 'Muang', 'Muang', 'Ra-ngae', 'Unknown', 'Yala'\
+            , 'Muang', 'Yarang', 'Yarang', 'Panareh', 'Nong Chik', 'Muang', 'Muang', 'Muang', 'Muang'\
+            , 'Muang', 'Muang', 'Muang']
+
+
+ 
+    fata = ['1', '0', '0', '1', '0', '0', '1', '3', '1', '2', '0', '1', '5', '1', '0', '0', '0'\
+            , '0', '0', '0', '0']
+    inju = ['0', '0', '18', '1', '1', '18', '0', '0', '1', '0', '3', '0', '4', '1', '0', '0', '0'\
+            , '0', '0', '0', '0']
+
+def year_2011_1():
+    
+    
+ 
+    city = ['Muang', 'Pattani', 'Ra-ngae', 'Unknown', 'Muang', 'Panareh', 'Muang', 'Khok Pho', 'Muang'\
+            , 'Unknown', 'Unknown', 'Sungai Kolok', 'Raman', 'Raman', 'Muang', 'Chanae', 'Unknown'\
+            , 'Unknown', 'Narathiwat', 'Nam Phong', 'Ra-ngae']
+
+
+ 
+    fata = ['1', '0', '0', '9', '1', '0', '1', '0', '1', '1', '2', '1', '0', '0', '1', '1', '2', '1'\
+            , '1', '0', '1']
+    inju = ['0', '5', '1', '2', '0', '1', '0', '2', '0', '0', '0', '0', '2', '1', '0', '0', '0', '0'\
+            , '0', '0', '0']
