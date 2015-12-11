@@ -64,9 +64,9 @@ def year_2013_09():
 
 def year_2013_08():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['Yaha', 'Rangae', 'KaphoDistrict', 'Kala', 'BanRae', 'Kero', 'Singhanakhon', 'YarangDistrict', 'Kaluwo', 'TakBaiDistrict', 'NongChikDistrict', 'NongChikDistrict', 'Wanghin', 'Kayukhla', 'Yarang', 'ThaSai', 'Rueso', 'Rueso', 'BaraeNua', 'SungaiPadiDistrict', 'Bacho', 'SungaiPadi', 'Unknown', 'Unknown', 'MuangTia', 'Lamphu', 'Lamphu', 'MuangDistrict', 'BoNgo', 'Charopae', 'Kglamda', 'MayoDistrict', 'ChabangTiko', 'RamanDistrict', 'PaRai', 'TakBai', 'Chuap', 'SaiburiDistrict', 'SabaYoi', 'Tepa', 'Tepa', 'NongChik', 'KhokPhoDistrict', 'NongChikDistrict', 'Unknown', 'MueangYalaDistrict', 'MueangYalaDistrict', 'MueangYalaDistrict', 'MueangYalaDistrict', 'MueangYalaDistrict', 'Jekae', 'Ba-ngoiSinae'] 
+    fata = ['0', '1', '1', '0', '0', '3', '2', '0', '1', '0', '1', '0', '0', '0', '1', '0', '0', '4', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '1', '2', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1']
+    inju = ['1', '0', '0', '2', '0', '1', '0', '4', '0', '0', '0', '2', '2', '4', '0', '0', '0', '0', '2', '9', '4', '0', '0', '0', '6', '2', '2', '4', '0', '0', '5', '5', '0', '1', '0', '4', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0']
     
     inj = 0
     fat = 0
@@ -94,35 +94,4 @@ def year_2013_07():
     all_list = [inj,fat]
     return all_list
     
-def test():
-    print("enter year")
-    year = input()
-    if year == '2013':
-        print('enter your mont')
-        mont = input()
-        if mont == '12':
-            j = year_2013_12()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '10':
-            j = year_2013_10()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '11':
-            j = year_2013_11()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-        elif mont == '09':
-            j = year_2013_09()
-            inj = j[0]
-            fata = j[1]
-            print('all in jur in mont =', inj)
-            print('all fata in mont =', fata)
-test()
     
