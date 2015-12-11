@@ -32,7 +32,7 @@ def year_2012_08():
 
 
 def year_2012_07():
-    city =[]
+    city =[cbfbfdbfbfbfbfbfbfb]
     fata = []
     inju = []
 
