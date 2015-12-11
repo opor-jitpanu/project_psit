@@ -3,7 +3,9 @@ def year_2014_12():
 
     city = ['Bachodistrict', 'Bachodistrict', 'Bachodistrict', 'Kabangdistrict', 'Riang', 'Mayo', 'BannangSata', 'ThaKamcham', \
             'MuangYaladistrict', 'BanKhaoDin', 'BangoSato', 'Yupo', 'Unknown', 'Unknown', 'Sawo', 'PlongHoi']
- 
+    city_max = 'Bacho district'
+    la = '6.516944'
+    long = '101.651667'
     fata = ['0', '0', '0', '0', '0', '1', '0', '0', '1', '1', '1', '0', '0', '0', '0', '0']
     inju = ['0', '0', '0', '0', '3', '0', '2', '0', '1', '0', '0', '0', '2', '0', '0', '0']
     
@@ -14,7 +16,7 @@ def year_2014_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_11():
