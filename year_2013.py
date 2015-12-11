@@ -160,9 +160,9 @@ def year_2013_03():
 
 def year_2013_02():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['Unknown', 'Unknown', 'Unknown', 'Barahom', 'TanyongDalo', 'TaKae', 'TaloKapore', 'Talubo', 'Tanyongmas', 'Tanyongmas', 'BannangSataDistrict', 'Anohru', 'BanKohTa', 'KaphoDistrict', 'KaphoDistrict', 'Yupo', 'Unknown', 'Patae', 'KhokPhoDistrict', 'KhokPhoDistrict', 'MaeLan', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'YarangDistrict', 'YarangDistrict', 'Pitumudi', 'BanPosan', 'BanPulatoRayo', 'Cherngkiri', 'Unknown', 'BanBuere', 'BachoDistrict', 'BanSamo', 'Yaha', 'KhokDeepree', 'RangaeDistrict', 'ThaThong', 'TonPhai', 'KrongPinangDistrict', 'Jabae', 'RamanDistrict', 'Baloey'] 
+    fata = ['0', '2', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '16', '0', '0', '0', '0', '5', '1', '4', '0', '0', '2']
+    inju = ['7', '1', '1', '0', '0', '0', '0', '7', '0', '3', '0', '0', '2', '0', '8', '2', '8', '1', '0', '1', '1', '0', '0', '9', '2', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '6', '2', '0', '0', '1', '0', '3', '4', '1', '1', '0', '1', '1', '10']
     
     inj = 0
     fat = 0
@@ -176,9 +176,9 @@ def year_2013_02():
 
 def year_2013_01():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['ChanaeDistrict', 'Ho-airongDistrict', 'ManangTayo', 'Rueso', 'Rueso', 'BachoDistrict', 'KhokPhoDistrict', 'Uber', 'Uber', 'Rueso', 'ThanToDistrict', 'KabangDistrict', 'YahaDistrict', 'MuangDistrict', 'RamanDistrict', 'BannangSataDistrict', 'KrongPinangDistrict', 'TambonPrachan', 'KhokKhian', 'KhokKhian', 'Unknown', 'Unknown', 'Pithan', 'Talameana', 'SakoTambon', 'MuangDistrict'] 
+    fata = ['0', '0', '1', '0', '0', '1', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '1', '1']
+    inju = ['0', '1', '2', '0', '1', '0', '3', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '1', '3', '0', '0', '0', '0', '0', '4']
     
     inj = 0
     fat = 0
