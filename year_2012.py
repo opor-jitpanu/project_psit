@@ -5,7 +5,7 @@ def year_2012_12():
     for i in inju:
         inj += int(i)
     return inj
-
+    print("man")
 
 
 def year_2012_11():
