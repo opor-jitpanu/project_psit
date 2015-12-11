@@ -32,9 +32,9 @@ def year_2013_11():
 
 def year_2013_10():
     
-    city = [] 
-    fata = []
-    inju = []
+    city = ['BoNgo', 'BoNgo', 'PanareDistrict', 'MuangPattaniDistrict', 'KayomatiDistrict', 'BannangSata', 'MayoDistrict', 'Hulupare', 'Hulupare', 'KamphaengSaen', 'Tanyonglimo', 'ThantoDistrict', 'RangaeDistrict', 'SubingDistrict', 'RuesoDistrict', 'YarangDistrict', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'KaphoDistrict', 'YarangDistrict', 'Unknown', 'NongChikDistrict', 'Pattani', 'Pattani', 'Pattani', 'Pattani', 'Pattani', 'Pattani', 'Pattani', 'Sakom', 'NaThawiDistrict', 'SabaYoiDistrict', 'BannangSata', 'YahaDistrict', 'YahaDistrict', 'YahaDistrict', 'YahaDistrict', 'Yala', 'Yala', 'Yala', 'Yala', 'Yala', 'Yala', 'SaiBuriDistrict', 'SaiBuriDistrict', 'BanYaning', 'RuesoDistrict', 'Yupo', 'Kadudo'] 
+    fata = ['0', '0', '1', '0', '3', '0', '0', '0', '2', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '2', '1', '0', '4']
+    inju = ['1', '0', '0', '5', '1', '2', '0', '7', '4', '0', '1', '11', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '3', '0', '3', '3']
  
      inj = 0
      fat = 0
