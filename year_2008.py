@@ -210,9 +210,9 @@ def year_2008_02():
 
 
 def year_2008_01():
-    city = ['NongChikdistrict', 'Rangae', 'SatengNok', 'SaiBuridistrict', 'Mueangdistrict', 'Karubi', 'Taluban', 'ThanTo', 'Ratsada', 'Rangaedistrict', 'BanBorHin', 'KhlongMai', 'Rueso', 'Kraso']
-    fata = ['0', '0', '2', '0', '0', '1', '2', '0', '1', '0', '0', '1', '2', '2']
-    inju = ['1', '0', '0', '5', '0', '0', '0', '3', '0', '2', '1', '0', '3', '0']
+    city = ['Unknown', 'Unknown', 'NaPraduandKokPhoeDistricts', 'RangaeDistrict', 'Yalatown', 'Chanaedistrict', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'KhokPho(District)', 'Unknown', 'Unknown', 'BannangSataDistrict', 'Unknown', 'SungaiKolokdistrict']
+    fata = ['2', '5', '5', '0', '0', '8', '0', '0', '1', '1', '1', '1', '0', '0', '0', '1', '0']
+    inju = ['0', '0', '0', '7', '44', '0', '37', '3', '0', '0', '0', '0', '2', '1', '1', '0', '32']
 
 
 
