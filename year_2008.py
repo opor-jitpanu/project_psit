@@ -190,9 +190,9 @@ def year_2008_03():
     return all_list
     
 def year_2008_02():
-    city = ['BannangSata', 'Bacho', 'Nongjik', 'Yaha', 'BanBuloyoh', 'Panare', 'Yaha', 'BanPajor', 'Rangae', 'BannangSata', 'Pattani', 'Bacho', 'SiSakhon', 'SungaiPadi', 'Saiburi', 'Yala', 'Bacho', 'Saiburi', 'KhokPho']
-    fata = ['0', '0', '0', '0', '0', '3', '0', '0', '1', '0', '1', '0', '1', '1', '1', '2', '1', '1', '1']
-    inju = ['0', '3', '1', '4', '4', '3', '2', '1', '0', '10', '13', '2', '0', '1', '2', '0', '0', '2', '0']
+    city = ['ChiangRai(Province)', 'Yala', 'Cho-Airong', 'Pattani', 'YangdaengDistrict', 'SaiburiDistrict', 'BanKasoh']
+    fata = ['0', '0', '0', '1', '1', '1', '1']
+    inju = ['3', '3', '6', '1', '0', '6', '11']
 
 
 
