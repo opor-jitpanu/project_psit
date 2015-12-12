@@ -37,9 +37,9 @@ def year_2008_11():
 
 
 def year_2008_10():
-    city = ['Yaha','Sai Buri','Sai Buri','Yarang','Bang Por','Sai Buri','Si Sakhon','Rueso','Bare Tai','Bare Tai','Khosit','Tak Bai district','Tak Bai district','Tak Bai district','Tak Bai district','Tak Bai district','Rangae','Krong Pinang','Kabang','Lam Luk Ka','Rangae','Sai Buri','Rangae','Rueso', 'BanAiYoeBaro', 'BanAiYoeBaro', 'Unknown', 'Unknown', 'Unknown', 'Rangae', 'Yarangdistrict', 'KhokPho', 'SiSakhon', 'Yaha', 'Yarang', 'Yala', 'Rangae']
-    fata = ['1','1','0','1','1','0','0','1','1','0','0','0','0','1','0','0','0','1','0','1','0', '0', '2', '2', '3', '2', '3', '2', '0', '0', '2', '0', '1']
-    inju = ['0','2','0','0','0','9','0','0','5','3','0','1','0','1','1','1','0','0','1','0','0', '9', '0', '0', '0', '0', '0', '0', '0', '3', '0', '0', '0']
+    city = ['Bangkok', 'Unknown', 'Yala', 'Bangkok', 'Unknown']
+    fata = ['0', '0', '1', '1', '0']
+    inju = ['0', '10', '0', '0', '1']
 
 
 
