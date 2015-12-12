@@ -8,20 +8,21 @@
     </head>
     <body>
         
-    <div id="stackedareachart"><svg style="width:400px;height:400px;"></svg></div>
+    <div id="multibarchart"><svg style="width:500px;height:400px;"></svg></div>
 
 
     <script>
 
 
-            data_stackedareachart=[{"key": "INJURED", "values": [{"y": 14, "x": 1}, {"y": 47, "x": 2}, {"y": 13, "x": 3}, {"y": 2, "x": 4}, {"y": 37, "x": 5}, {"y": 18, "x": 6}, {"y": 30, "x": 7}, {"y": 28, "x": 8}, {"y": 126, "x": 9}, {"y": 61, "x": 10}, {"y": 24, "x": 11}, {"y": 35, "x": 12}], "yAxis": "1"}, {"key": "FATALITIES", "values": [{"y": 24, "x": 1}, {"y": 16, "x": 2}, {"y": 14, "x": 3}, {"y": 8, "x": 4}, {"y": 18, "x": 5}, {"y": 9, "x": 6}, {"y": 8, "x": 7}, {"y": 10, "x": 8}, {"y": 8, "x": 9}, {"y": 15, "x": 10}, {"y": 13, "x": 11}, {"y": 8, "x": 12}], "yAxis": "1"}];
+
+        data_multibarchart=[{"key": "INJURED", "yAxis": "1", "values": [{"y": 14, "x": "JANUARY"}, {"y": 47, "x": "FEBRUARY"}, {"y": 13, "x": "MARCH"}, {"y": 2, "x": "APRIL"}, {"y": 37, "x": "MAY"}, {"y": 18, "x": "JUNE"}, {"y": 30, "x": "JULY"}, {"y": 28, "x": "AUGUST"}, {"y": 126, "x": "SEPTEMBER"}, {"y": 61, "x": "OCTOBER"}, {"y": 24, "x": "NOVEMBER"}, {"y": 35, "x": "DECEMBER"}]}, {"key": "FATALITIES", "yAxis": "1", "values": [{"y": 24, "x": "JANUARY"}, {"y": 16, "x": "FEBRUARY"}, {"y": 14, "x": "MARCH"}, {"y": 8, "x": "APRIL"}, {"y": 18, "x": "MAY"}, {"y": 9, "x": "JUNE"}, {"y": 8, "x": "JULY"}, {"y": 10, "x": "AUGUST"}, {"y": 8, "x": "SEPTEMBER"}, {"y": 15, "x": "OCTOBER"}, {"y": 13, "x": "NOVEMBER"}, {"y": 8, "x": "DECEMBER"}]}];
 
     nv.addGraph(function() {
-        var chart = nv.models.stackedAreaChart();
+        var chart = nv.models.multiBarChart();
 
         chart.margin({top: 30, right: 60, bottom: 20, left: 60});
 
-        var datum = data_stackedareachart;
+        var datum = data_multibarchart;
 
 
 
@@ -29,22 +30,7 @@
 
             chart.yAxis
                 .tickFormat(d3.format(',.2f'));
-            chart.xAxis
-                .tickFormat(d3.format(',.2f'));
 
-                    chart.tooltipContent(function(key, y, e, graph) {
-                        var x = String(graph.point.x);
-                        var y = String(graph.point.y);
-                                            if(key == 'INJURED'){
-                        var y = 'There is ' +  String(graph.point.y)  + ' min';
-                    }
-                    if(key == 'FATALITIES'){
-                        var y = 'There is ' +  String(graph.point.y)  + ' min';
-                    }
-
-                        tooltip_str = '<center><b>'+key+'</b></center>' + y + ' at ' + x;
-                        return tooltip_str;
-                    });
 
       chart.showLegend(true);
 
@@ -53,15 +39,16 @@
         
 
 
-        d3.select('#stackedareachart svg')
+        d3.select('#multibarchart svg')
             .datum(datum)
             .transition().duration(500)
-            .attr('width', 400)
+            .attr('width', 500)
             .attr('height', 400)
             .call(chart);
 
 
     });
+
 
 
 

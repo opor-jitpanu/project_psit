@@ -11,7 +11,7 @@ def year_2013_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_11():
@@ -27,7 +27,7 @@ def year_2013_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_10():
@@ -36,15 +36,15 @@ def year_2013_10():
     fata = ['0', '0', '1', '0', '3', '0', '0', '0', '2', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '2', '1', '0', '4']
     inju = ['1', '0', '0', '5', '1', '2', '0', '7', '4', '0', '1', '11', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '3', '0', '3', '3']
  
-     inj = 0
-     fat = 0
-     list_test = []
-     for i in inju:
-         inj += int(i)
-     for j in fata:
-         fat += int(j)
-     all_list = [inj,fat,city_max,la,long]
-     return all_list
+    inj = 0
+    fat = 0
+    list_test = []
+    for i in inju:
+        inj += int(i)
+    for j in fata:
+        fat += int(j)
+    all_list = [fat,inj]
+    return all_list
 
 def year_2013_09():
 
@@ -59,7 +59,7 @@ def year_2013_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_08():
@@ -75,7 +75,7 @@ def year_2013_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_07():
@@ -91,7 +91,7 @@ def year_2013_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_06():
@@ -107,7 +107,7 @@ def year_2013_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_05():
@@ -123,7 +123,7 @@ def year_2013_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_04():
@@ -139,7 +139,7 @@ def year_2013_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_03():
@@ -155,7 +155,7 @@ def year_2013_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_02():
@@ -171,7 +171,7 @@ def year_2013_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 def year_2013_01():
@@ -187,6 +187,6 @@ def year_2013_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
     

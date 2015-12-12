@@ -200,5 +200,3 @@ def year_2011_01():
         inj += int(j)
     list_all = [fat,inj]
     return list_all
-
-
