@@ -60,9 +60,9 @@ def year_2009_10():
 
 def year_2009_09():
 
-    city = ['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Chanae', 'TakBai', 'Thungyangdaeng', 'Takbai', 'Raman', 'Yaha', 'Panareh', 'Pattani', 'Bacho', 'Yarang', 'Nong Chik', 'Rusoh', ]
-    fata = ['1', '1', '0', '1', '0', '1', '1', '2', '1', '1', '1', '1', '2', '2', '2', '2', '1', '1', '2', '0', '1', '0', '1', '1', ]
-    inju = ['0', '0', '4', '0', '3', '0', '0', '0', '2', '0', '0', '0', '1', '0', '0', '0', '1', '1', '0', '0', '0', '0', '1', '0', ]
+    city = ['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Chanae', 'TakBai', 'Thungyangdaeng', 'Takbai', 'Raman', 'Yaha', 'Panareh', 'Pattani', 'Bacho', 'Yarang', 'Nong Chik', 'Rusoh', 'Bangkok', 'Bacho', 'Yala', 'Muang', 'Pattani', 'NongChik', 'Muang', 'Muang', 'SungaiKolok', 'Saiburi', 'Yala', 'Betong', 'Panareh', 'Narathiwat', 'Narathiwat', 'Saiburi', 'Muang', 'Rusoh', 'Muang', 'SiSakhon', 'Saiburi']
+    fata = ['1', '1', '0', '1', '0', '1', '1', '2', '1', '1', '1', '1', '2', '2', '2', '2', '1', '1', '2', '0', '1', '0', '1', '1', '0', '0', '1', '0', '1', '1', '1', '1', '0', '0', '3', '1', '2', '2', '0', '0', '1', '1', '2', '1', '1']
+    inju = ['0', '0', '4', '0', '3', '0', '0', '0', '2', '0', '0', '0', '1', '0', '0', '0', '1', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '5', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '14', '1', '29', '1', '0', '0', '14']
 
     city_max =
     la =
@@ -80,9 +80,9 @@ def year_2009_09():
 
 def year_2009_08():
 
-    city = []
-    fata = []
-    inju = []
+    city = ['Saiburi', 'Unknown', 'Yaha', 'BannangSata', 'Muang', 'Muang', 'Ra-ngae', 'KrongPinang', 'Unknown', 'Ra-ngae', 'Unknown', 'Saiburi', 'Unknown', 'Muang', 'Unknown', 'NongChik', 'Muang', 'KhlongToey', 'Muang', 'Yaring', 'Unknown', 'Unknown']
+    fata = ['1', '1', '1', '1', '1', '0', '0', '0', '1', '1', '1', '1', '1', '1', '3', '0', '0', '0', '1', '1', '1', '2']
+    inju = ['16', '0', '0', '0', '1', '43', '1', '2', '0', '2', '0', '0', '0', '0', '0', '1', '2', '0', '1', '0', '0', '0']
 
     city_max =
     la =
