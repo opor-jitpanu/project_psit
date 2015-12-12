@@ -53,3 +53,54 @@ def year_2010_8():
     fata = ['0', '1', '1', '0', '1', '1', '1', '2', '0', '1', '2', '1']
     inju = ['0', '1', '0', '1', '1', '0', '2', '0', '0', '0', '1', '7']
 
+def year_2010_7():
+    
+    
+ 
+    city = ['Janae', 'Din Daeng', 'Yaring', 'Muang', 'Bangkok', 'Yaring', 'Rusoh', 'Pattani'\
+            , 'Pattani', 'Sungai Kolok', 'Than To', 'Bannang Sata', 'Mayo']
+    fata = ['1', '0', '0', '1', '1', '1', '0', '1', '1', '1', '1', '1', '1']
+    inju = ['1', '1', '1', '1', '9', '2', '0', '0', '0', '0', '2', '0', '0']
+
+def year_2010_6():
+    
+    
+ 
+    city = ['Raman', 'Srisakorn', 'Muang', 'Bangkok', 'Sai Buri', 'Muang', 'Thungyangdaeng'\
+            , 'Thepa', 'Yala', 'Khok Pho', 'Thungyangdaeng', 'Nong Chik', 'Kok Pho'\
+            , 'Krong Pinang', 'Yaha', 'Raman', 'Raman', 'Raman', 'Khok Pho']
+    fata = ['0', '0', '0', '0', '0', '2', '0', '0', '2', '0', '0', '3', '1', '0', '0', '0', '0'\
+            , '0', '0']
+    inju = ['2', '3', '0', '1', '3', '1', '2', '9', '23', '1', '2', '1', '0', '0', '0', '0'\
+            , '0', '0', '0']
+
+def year_2010_5():
+    
+    
+ 
+    city = ['Panareh', 'Yala', 'Yarang', 'Bangkok', 'Yala', 'Unknown', 'Unknown', 'Chiang Mai'\
+            , 'Chiang Mai', 'Chiang Mai', 'Chiang Mai', 'Chiang Mai', 'Bangkok', 'Bangkok'\
+            , 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok'\
+            , 'Unknown', 'Udon Thani', 'Unknown', 'Nong Chik', 'Chiang Mai', 'Chiang Mai'\
+            , 'Lam Luk Ka', 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok', 'Bangkok'\
+            , 'Unknown', 'Udon Thani', 'Unknown', 'Nong Chik', 'Yarang', 'Bangkok', 'Bangkok'\
+            , 'Than To', 'Bangkok', 'Bangkok', 'Yaha', 'Yaha', 'Muang']
+    fata = ['1', '2', '1', '0', '2', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0'\
+            , '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0'\
+            , '0', '0', '1', '0', '0', '0', '1', '1', '1', '1', '1']
+    inju = ['0', '28', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'\
+            , '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '4'\
+            , '0', '0', '0', '1', '8', '4', '0', '0', '0']
+
+def year_2010_4():
+    
+    
+ 
+    city = ['Muang', 'Muang', 'Bangkok', 'Khok Pho', 'Chiang Mai', 'Bangplad', 'Yingor', 'Unknown'\
+            , 'Bangkok', 'Bangkok', 'Bangkok', 'Unknown', 'Unknown', 'Bangkok', 'Ayutthaya'\
+            , 'Bangkok', 'Bangkok', 'Than To', 'Muang', 'Bangkok', 'Muang', 'Bangkok', 'Bangkok']
+    fata = ['0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '1', '1', '0', '0', '0', '0'\
+            , '0', '0', '0', '0', '0', '0', '0', '6', '3']
+    inju = ['3', '3', '0', '4', '0', '11', '2', '0', '4', '3', '20', '0', '0', '0', '0', '0', '0'\
+            , '7', '0', '2', '0', '1', '0', '0', '0', '0']
+
