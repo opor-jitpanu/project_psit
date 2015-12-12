@@ -23,7 +23,9 @@ def year_2014_11():
  
     city = ['TanyongTalo', 'Waeng', 'RuamThaiPattana', 'SiSakhon', 'BanBluKa', 'KhokPhodistrict', 'Betongdistrict', 'Aiyoeweng', \
             'KhaoTum', 'BannangSatadistrict', 'Ruesodistrict', 'ChoengKhiri', 'Wat', 'SungaiPadidistrict', 'Talubo', 'Muangdistrict', 'TakBaidistrict', 'ThaMuang']
- 
+    city_max =
+    la =
+    long = 
     fata = ['1', '0', '0', '2', '0', '1', '2', '1', '0', '0', '1', '0', '0', '0', '2', '1', '1', '2']
     inju = ['1', '2', '2', '0', '1', '0', '0', '1', '1', '0', '1', '1', '4', '0', '3', '0', '3', '7']
  
@@ -34,7 +36,7 @@ def year_2014_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_10():
@@ -51,7 +53,7 @@ def year_2014_10():
          inj += int(i)
      for j in fata:
          fat += int(j)
-     all_list = [inj,fat]
+     all_list = [inj,fat,city_max,la,long]
      return all_list
 
 def year_2014_09():
@@ -69,7 +71,7 @@ def year_2014_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_08():
@@ -85,7 +87,7 @@ def year_2014_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 def year_2014_07():
     city = ['Rueso', 'TohBala', 'NongChikdistrict', 'Sukhirindistrict', 'LamMai', 'Betong', 'ThaKham', 'NaPradu', \
@@ -103,7 +105,7 @@ def year_2014_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_06():
@@ -123,7 +125,7 @@ def year_2014_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_05():
@@ -149,7 +151,7 @@ def year_2014_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_04():
@@ -168,7 +170,7 @@ def year_2014_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_03():
@@ -194,7 +196,7 @@ def year_2014_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_02():
@@ -218,7 +220,7 @@ def year_2014_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2014_01():
@@ -239,7 +241,7 @@ def year_2014_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 def year_2011_12():
     city = ['Tathong', 'Ban Ton Phai', 'Raman', 'Ban Klang', 'Tambon Katong', 'Tambon Al Yer Weng'\
@@ -254,7 +256,7 @@ def year_2011_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
     
 def year_2011_11():
@@ -278,7 +280,7 @@ def year_2011_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_10():
@@ -302,7 +304,7 @@ def year_2011_10():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_9():
@@ -322,7 +324,7 @@ def year_2011_9():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_8():
@@ -343,7 +345,7 @@ def year_2011_8():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_7():
@@ -364,7 +366,7 @@ def year_2011_7():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_6():
@@ -385,7 +387,7 @@ def year_2011_6():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_5():
@@ -406,7 +408,7 @@ def year_2011_5():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_4():
@@ -426,7 +428,7 @@ def year_2011_4():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_3():
@@ -447,7 +449,7 @@ def year_2011_3():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_2():
@@ -471,7 +473,7 @@ def year_2011_2():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2011_1():
@@ -495,7 +497,7 @@ def year_2011_1():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 def test():
     print("enter year")
