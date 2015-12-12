@@ -11,7 +11,7 @@ def year_2013_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_11():
@@ -27,7 +27,7 @@ def year_2013_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_10():
@@ -43,7 +43,7 @@ def year_2013_10():
          inj += int(i)
      for j in fata:
          fat += int(j)
-     all_list = [inj,fat]
+     all_list = [inj,fat,city_max,la,long]
      return all_list
 
 def year_2013_09():
@@ -59,7 +59,7 @@ def year_2013_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_08():
@@ -75,7 +75,7 @@ def year_2013_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_07():
@@ -91,7 +91,7 @@ def year_2013_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_06():
@@ -107,7 +107,7 @@ def year_2013_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_05():
@@ -123,14 +123,14 @@ def year_2013_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_04():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['SiSakhonDistrict', 'YingoDistrict', 'PaseYawo', 'ManangDalam', 'BachoDistrict', 'SungaiPadiDistrict', 'Chalerm', 'BanChampako', 'ThungYangDaengDistrict', 'KhaoTum', 'Talahkapo', 'PaGu', 'SiSakhonDistrict', 'MohMawee', 'MayoDistrict', 'RangaeDistrict', 'BanChoBatu', 'MayoDistrict', 'PanareDistrict', 'Arnohru', 'BanPaMai', 'PlugTaen', 'SaiBuriDistrict', 'Taluban', 'BanKayo', 'MorSaeng', 'KolorKalee', 'KolorKapa', 'Karubi', 'BangKlong', 'BanLua', 'Unknown', 'PanareDistrict', 'SaiBuriDistrict', 'PanareDistrict', 'Thamuang', 'RangaeDistrict', 'Unknown', 'MuangDistrict', 'Talohta', 'Unknown', 'DusongMajae', 'Yala', 'Yala', 'Yala', 'Yala', 'ThanToDistrict', 'MaruboOk', 'SungaiPadiDistrict', 'Kasot', 'Tanyongmat', 'KrongPinangDistrict', 'ChanaeDistrict', 'DonRak', 'Pitumudi', 'LuboBuesa', 'SungaiPadiDistrict', 'Sawor', 'RuesoDistrict'] 
+    fata = ['0', '0', '0', '1', '4', '1', '0', '4', '1', '1', '0', '1', '0', '1', '1', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '2', '0', '1', '0', '0', '0', '0', '0', '1', '1']
+    inju = ['0', '2', '2', '0', '0', '0', '3', '6', '0', '0', '1', '3', '1', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '1', '0', '1', '0', '4', '1', '1', '0', '19', '0', '2', '2', '0', '1', '14', '0']
     
     inj = 0
     fat = 0
@@ -139,14 +139,14 @@ def year_2013_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_03():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['NaKet', 'Makrut', 'KhokPho', 'BanYangDaeng', 'BanPayo', 'BanHaePhrao', 'BanNambor', 'BanPayor', 'LuboBuesa', 'SungaiPadiDistrict', 'RuesoDistrict', 'RamanDistrict', 'RangaeDistrict', 'Unknown', 'Cho-airongDistrict', 'TakBaiDistrict', 'Cho-airongDistrict', 'RangaeDistrict', 'YarangDistrict', 'RuesoDistrict', 'LubohTalo', 'KhuanNuri', 'RuesoDistrict', 'PaseYawo', 'WaengDistrict', 'KhokMude', 'BangPoo', 'MueangPattani', 'YarangDistrict', 'Unknown', 'Unknown', 'BanPikri', 'BanRueso', 'Unknown', 'BanTaloMangabae', 'Unknown', 'TaloKapo', 'Unknown', 'Yala', 'Unknown', 'MuangNarathiwat', 'MuangDistrict'] 
+    fata = ['0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '1', '0', '0', '0', '3', '2', '3', '0', '0', '0', '0', '1', '1', '0', '0', '1', '1', '1', '1', '1', '1', '0', '3', '0', '1', '1', '1', '0', '2', '2', '0', '0']
+    inju = ['0', '0', '0', '0', '0', '4', '1', '2', '0', '1', '14', '0', '0', '0', '0', '0', '5', '0', '1', '1', '6', '0', '1', '7', '5', '0', '0', '12', '0', '0', '0', '1', '0', '0', '2', '0', '0', '1', '0', '11', '0', '6']
     
     inj = 0
     fat = 0
@@ -155,14 +155,14 @@ def year_2013_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_02():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['Unknown', 'Unknown', 'Unknown', 'Barahom', 'TanyongDalo', 'TaKae', 'TaloKapore', 'Talubo', 'Tanyongmas', 'Tanyongmas', 'BannangSataDistrict', 'Anohru', 'BanKohTa', 'KaphoDistrict', 'KaphoDistrict', 'Yupo', 'Unknown', 'Patae', 'KhokPhoDistrict', 'KhokPhoDistrict', 'MaeLan', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'MuangDistrict', 'YarangDistrict', 'YarangDistrict', 'Pitumudi', 'BanPosan', 'BanPulatoRayo', 'Cherngkiri', 'Unknown', 'BanBuere', 'BachoDistrict', 'BanSamo', 'Yaha', 'KhokDeepree', 'RangaeDistrict', 'ThaThong', 'TonPhai', 'KrongPinangDistrict', 'Jabae', 'RamanDistrict', 'Baloey'] 
+    fata = ['0', '2', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '16', '0', '0', '0', '0', '5', '1', '4', '0', '0', '2']
+    inju = ['7', '1', '1', '0', '0', '0', '0', '7', '0', '3', '0', '0', '2', '0', '8', '2', '8', '1', '0', '1', '1', '0', '0', '9', '2', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '6', '2', '0', '0', '1', '0', '3', '4', '1', '1', '0', '1', '1', '10']
     
     inj = 0
     fat = 0
@@ -171,14 +171,14 @@ def year_2013_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_01():
 
-    city = [] 
-    fata = []
-    inju = []
+    city = ['ChanaeDistrict', 'Ho-airongDistrict', 'ManangTayo', 'Rueso', 'Rueso', 'BachoDistrict', 'KhokPhoDistrict', 'Uber', 'Uber', 'Rueso', 'ThanToDistrict', 'KabangDistrict', 'YahaDistrict', 'MuangDistrict', 'RamanDistrict', 'BannangSataDistrict', 'KrongPinangDistrict', 'TambonPrachan', 'KhokKhian', 'KhokKhian', 'Unknown', 'Unknown', 'Pithan', 'Talameana', 'SakoTambon', 'MuangDistrict'] 
+    fata = ['0', '0', '1', '0', '0', '1', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '1', '1']
+    inju = ['0', '1', '2', '0', '1', '0', '3', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '1', '3', '0', '0', '0', '0', '0', '4']
     
     inj = 0
     fat = 0
@@ -187,6 +187,6 @@ def year_2013_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
     
