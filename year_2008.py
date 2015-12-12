@@ -95,9 +95,9 @@ def year_2008_08():
 
 
 def year_2008_07():
-    city = []
-    fata = []
-    inju = []
+    city = ['Narathiwat', 'Yarang', 'Rusoh', 'SaiBuri', 'BannangSata', 'Yarang', 'KhokPho', 'Saiburi', 'Yaha', 'ChoIRong', 'Raman', 'Ra-ngae', 'Yarang', 'Unknown', 'Yala', 'Muang', 'Unknown', 'Unknown', 'Unknown', 'Raman', 'BannangSata', 'BannangSata', 'Meung', 'Rusoh', 'Raman', 'Unknown', 'Yaha']
+    fata = ['0', '1', '0', '0', '0', '1', '1', '1', '0', '1', '0', '1', '0', '0', '0', '0', '3', '1', '1', '3', '1', '1', '1', '1', '1', '1', '1']
+    inju = ['18', '0', '0', '0', '1', '0', '0', '0', '0', '5', '1', '0', '0', '1', '0', '8', '0', '0', '0', '5', '0', '1', '0', '0', '0', '0', '0']
 
 
     inj = 0
