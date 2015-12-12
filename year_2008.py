@@ -1,7 +1,7 @@
 def year_2008_12():
-    city = ['Unknown', 'Sederot', 'Unknown', 'Muang', 'Unknown', 'Bangkok', 'ThanTo']
-    fata = ['1', '0', '0', '0', '3', '1', '1']
-    inju = ['0', '1', '4', '8', '3', '22', '0']
+    city = ['Unknown', 'Unknown', 'Muang', 'Unknown', 'Bangkok', 'ThanTo']
+    fata = ['1', '0', '0', '3', '1', '1']
+    inju = ['0', '4', '8', '3', '22', '0']
 
 
 
@@ -19,9 +19,9 @@ def year_2008_12():
 
 
 def year_2008_11():
-    city = ['Bangkok', 'Bangkok', 'Bangkok', 'DonMueang', 'Bangkok', 'Unknown', 'Bangkok', 'Yala', 'Muang', 'Narathiwat', 'KhlongToey', 'Bangkok', 'Muang', 'Bangkok', 'Unknown', 'Bangkok', 'Sukhirin', 'Sukhirin', 'Sukhirin', 'Ternate', 'Ternate', 'Bacho', 'Rusoh']
-    fata = ['0', '1', '0', '0', '0', '1', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1']
-    inju = ['0', '46', '1', '2', '0', '0', '22', '0', '0', '1', '15', '3', '0', '1', '0', '0', '0', '0', '70', '0', '0', '0', '1']
+    city = ['Bangkok', 'Bangkok', 'Bangkok', 'DonMueang', 'Bangkok', 'Unknown', 'Bangkok', 'Yala', 'Muang', 'Narathiwat', 'KhlongToey', 'Bangkok', 'Muang', 'Bangkok', 'Unknown', 'Bangkok', 'Sukhirin', 'Sukhirin', 'Sukhirin', 'Bacho', 'Rusoh']
+    fata = ['0', '1', '0', '0', '0', '1', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1']
+    inju = ['0', '46', '1', '2', '0', '0', '22', '0', '0', '1', '15', '3', '0', '1', '0', '0', '0', '0', '70', '0', '1']
 
 
     inj = 0
@@ -55,10 +55,10 @@ def year_2008_10():
 
 
 
-def year_2008_08():
-    city = ['Rueso district','Bacho district','Pohon Jerai','Raman district','Raman district','Yingodistrict', 'Bachodistrict', 'BanRi-Ngae', 'SaiBuri', 'SaiBuri', 'SatengNok', 'SatengNok', 'Kalisa', 'BangoSato', 'Bachodistrict', 'Lamphu', 'BanJohwa', 'BanJohwa', 'BangNak', 'BanKaena', 'Tanyongmat']
-    fata = ['0','1','0','2','0','0', '0', '0', '0', '6', '0', '4', '0', '0', '0', '0', '0', '0', '0', '0', '0']
-    inju = ['0','23','4','0','0','2', '4', '1', '0', '40', '0', '0', '1', '3', '1', '4', '0', '0', '5', '1', '1']
+def year_2008_09():
+    city = ['Mayo', 'Raman', 'Unknown', 'Unknown', 'BannangSata', 'Rusoh', 'Unknown', 'Unknown', 'Rusoh', 'Unknown', 'Yarang', 'Muang', 'Unknown', 'ThanTo', 'Bangkok', 'Bangkok', 'KhokPho']
+    fata = ['1', '1', '1', '1', '0', '0', '1', '2', '1', '1', '1', '1', '1', '0', '0', '0', '1']
+    inju = ['0', '0', '0', '0', '1', '4', '0', '9', '11', '0', '0', '0', '0', '1', '2', '0', '0']
 
 
 
@@ -234,12 +234,12 @@ def year_2008_01():
 def test():
     print("enter year or type all for all")
     year = input()
-    if year == '2012':
+    if year == '2008':
         print('enter your mont or type all for all')
         mont = input()
         if mont == '12':
             inj = 99
-            year_2012_12(inj)
+            year_2008_12(inj)
             print(inj)
 
 
