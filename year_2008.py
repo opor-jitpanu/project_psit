@@ -114,9 +114,9 @@ def year_2008_07():
 
 
 def year_2008_06():
-    city = ['PaseYawo', 'Phraiwan', 'Kaphodistrict', 'KrongPinangdistrict', 'Ramandistrict', 'Sukhirindistrict', 'Ramandistrict', 'SiSakhondistrict', 'KrongPinangdistrict', 'Chanaedistrict', 'ThungYangDaengdistrict', 'Yarang', 'PorMing', 'RusaMilae', 'SungaiPadi', 'Kaphodistrict', 'Prajan', 'PakaHarang']
-    fata = ['2', '0', '3', '1', '1', '0', '0', '1', '3', '0', '2', '0', '1', '0', '2', '0', '0', '1']
-    inju = ['2', '0', '3', '1', '1', '0', '0', '1', '3', '0', '2', '0', '1', '0', '2', '0', '0', '1']
+    city = ['Unknown', 'Unknown', 'Muang', 'Unkknown', 'Unknown', 'Bangkok', 'Unknown', 'Unknown', 'YiNgo']
+    fata = ['1', '2', '10', '4', '2', '0', '3', '1', '1']
+    inju = ['0', '0', '0', '5', '0', '0', '0', '4', '0']
 
 
 
