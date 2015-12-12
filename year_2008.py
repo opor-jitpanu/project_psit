@@ -75,9 +75,9 @@ def year_2008_09():
 
 
 def year_2008_08():
-    city = ['Muang Narathiwat','Bannang Sata','Raman district','Cho-airong district','Chalerm','Chalerm','Chalerm','Nong Chik district','Yarang district','Panare','Bo Thong','Tuyong','Tuyong','Tuyong','Bang Khao','Bang Khao','Khok Pho','Khok Pho','Sai Buri district','Suwari','Ban To Deng','Sungai Padi district','Korlortanyong','Khok Pho','Ban Ba Ngo Mu long','Kawa','Khao Tum','Tak Bai district','Pase Yawo','Mayo district']
-    fata = ['0','1','1','1','1','0','1','1','0','0','0','0','0','0','0','0','0','0','1','0','0','0','0','0','0','0','0','0','1','1']
-    inju = ['0','0','0','1','1','0','1','0','5','0','0','0','0','0','0','0','0','0','0','0','0','0','3','4','2','0','9','0','0','0']
+    city = ['BannangSata', 'Unknown', 'Unknown', 'Raman', 'Raman', 'SungaiKolok', 'SungaiKolok', 'Rusoh', 'Takbai', 'Unknown', 'Pakkred', 'KhokPho', 'KhokPho', 'Unknown', 'Takbai', 'Takbai', 'Bacho', 'Bacho', 'Yarang', 'Yala', 'Yarang', 'Muang', 'Yala', 'Muang', 'Raman', 'HatYai', 'Muang', 'Muang', 'Muang', 'Muang', 'Unknown']
+    fata = ['1', '1', '1', '1', '2', '2', '0', '0', '0', '0', '0', '1', '1', '0', '0', '1', '0', '0', '0', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '1']
+    inju = ['0', '0', '0', '0', '0', '30', '0', '1', '8', '1', '0', '18', '0', '1', '1', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '1', '1', '0']
 
 
 
@@ -95,9 +95,9 @@ def year_2008_08():
 
 
 def year_2008_07():
-    city = ['MuangPattani', 'ChoAirong', 'ThungYangDaeng', 'Mueang', 'Rueso', 'Mayo', 'Rueso', 'Raman', 'Raman', 'Rangae', 'Muang', 'Rangae', 'SungaiKolok', 'Unknown', 'KhokPho', 'Rueso', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'ThungYangDaeng', 'Kapho', 'Kapho', 'Rangae', 'Chuap', 'Ruesodistrict', 'Rueso', 'BanMo', 'BanKuelong', 'Raman']
-    fata = ['0', '2', '1', '1', '0', '4', '0', '1', '5', '0', '0', '0', '0', '1', '1', '5', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1']
-    inju = ['3', '0', '0', '0', '1', '2', '3', '0', '1', '2', '2', '8', '8', '1', '1', '5', '1', '1', '1', '0', '0', '0', '1', '3', '0', '0', '0', '3', '12', '6', '5', '1', '0']
+    city = []
+    fata = []
+    inju = []
 
 
     inj = 0
