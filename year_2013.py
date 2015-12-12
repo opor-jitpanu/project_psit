@@ -11,7 +11,7 @@ def year_2013_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_11():
@@ -27,7 +27,7 @@ def year_2013_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_10():
@@ -43,7 +43,7 @@ def year_2013_10():
          inj += int(i)
      for j in fata:
          fat += int(j)
-     all_list = [inj,fat]
+     all_list = [inj,fat,city_max,la,long]
      return all_list
 
 def year_2013_09():
@@ -59,7 +59,7 @@ def year_2013_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_08():
@@ -75,7 +75,7 @@ def year_2013_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_07():
@@ -91,7 +91,7 @@ def year_2013_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_06():
@@ -107,7 +107,7 @@ def year_2013_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_05():
@@ -123,7 +123,7 @@ def year_2013_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_04():
@@ -139,7 +139,7 @@ def year_2013_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_03():
@@ -155,7 +155,7 @@ def year_2013_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_02():
@@ -171,7 +171,7 @@ def year_2013_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
 
 def year_2013_01():
@@ -187,6 +187,6 @@ def year_2013_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat]
+    all_list = [inj,fat,city_max,la,long]
     return all_list
     
