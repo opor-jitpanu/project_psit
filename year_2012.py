@@ -7,6 +7,8 @@ def year_2012_12():
     return inj
 
 
+
+
 def year_2012_11():
     city = ['Mai Kaen','Panare','Yarang','Bannang Sata','Nong Chik','Khok Pho','Rueso','Rueso','Rueso','Rueso','Mueang Yala','Unknown','Chanae district','Sungai Padi','Yaha','Takua Thung','Yarang','Khok Pho','Rueso','Rueso','Sungai Padi','Chanae','Chanae','Yarang','Mayo','Rueso','Rueso']
     fata = ['1','0','1','0','1','0','0','0','0','3','1','1','1','1','1','1','0','0','0','3','1','0','0','0','1','3','0']
