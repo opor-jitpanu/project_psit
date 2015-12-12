@@ -5,7 +5,6 @@ def year_2012_12():
     for i in inju:
         inj += int(i)
     return inj
-    print("man")
 
 
 def year_2012_11():
@@ -32,9 +31,9 @@ def year_2012_08():
 
 
 def year_2012_07():
-    city =[cbfbfdbfbfbfbfbfbfb]
-    fata = []
-    inju = []
+    city =['MuangPattani', 'ChoAirong', 'ThungYangDaeng', 'Mueang', 'Rueso', 'Mayo', 'Rueso', 'Raman', 'Raman', 'Rangae', 'Muang', 'Rangae', 'SungaiKolok', 'Unknown', 'KhokPho', 'Rueso', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'BannangSata', 'ThungYangDaeng', 'Kapho', 'Kapho', 'Rangae', 'Chuap', 'Ruesodistrict', 'Rueso', 'BanMo', 'BanKuelong', 'Raman']
+    fata = ['0', '2', '1', '1', '0', '4', '0', '1', '5', '0', '0', '0', '0', '1', '1', '5', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1']
+    inju = ['3', '0', '0', '0', '1', '2', '3', '0', '1', '2', '2', '8', '8', '1', '1', '5', '1', '1', '1', '0', '0', '0', '1', '3', '0', '0', '0', '3', '12', '6', '5', '1', '0']
 
 def year_2012_06():
     city =[]
