@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js"></script>
+    </head>
+    <body>
+        
+    <div id="multibarchart"><svg style="width:500px;height:400px;"></svg></div>
+
+
+    <script>
+
+
+
+        data_multibarchart=[{"yAxis": "1", "values": [{"x": "JANUARY", "y": 16}, {"x": "FEBRUARY", "y": 21}, {"x": "MARCH", "y": 23}, {"x": "APRIL", "y": 60}, {"x": "MAY", "y": 45}, {"x": "JUNE", "y": 48}, {"x": "JULY", "y": 17}, {"x": "AUGUST", "y": 13}, {"x": "SEPTEMBER", "y": 24}, {"x": "OCTOBER", "y": 23}, {"x": "NOVEMBER", "y": 12}, {"x": "DECEMBER", "y": 11}], "key": "INJURED"}, {"yAxis": "1", "values": [{"x": "JANUARY", "y": 12}, {"x": "FEBRUARY", "y": 15}, {"x": "MARCH", "y": 12}, {"x": "APRIL", "y": 13}, {"x": "MAY", "y": 15}, {"x": "JUNE", "y": 8}, {"x": "JULY", "y": 10}, {"x": "AUGUST", "y": 11}, {"x": "SEPTEMBER", "y": 19}, {"x": "OCTOBER", "y": 19}, {"x": "NOVEMBER", "y": 7}, {"x": "DECEMBER", "y": 13}], "key": "FATALITIES"}];
+
+    nv.addGraph(function() {
+        var chart = nv.models.multiBarChart();
+
+        chart.margin({top: 30, right: 60, bottom: 20, left: 60});
+
+        var datum = data_multibarchart;
+
+
+
+
+
+            chart.yAxis
+                .tickFormat(d3.format(',.2f'));
+
+
+      chart.showLegend(true);
+
+
+
+        
+
+
+        d3.select('#multibarchart svg')
+            .datum(datum)
+            .transition().duration(500)
+            .attr('width', 500)
+            .attr('height', 400)
+            .call(chart);
+
+
+    });
+
+
+
+
+    </script>
+
+    </body>
+</html>

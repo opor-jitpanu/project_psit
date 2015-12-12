@@ -15,8 +15,9 @@ from year_2014 import year_2014_12, year_2014_11, year_2014_10, year_2014_09,\
 from year_2008 import year_2008_12, year_2008_11, year_2008_10, year_2008_09,\
      year_2008_08, year_2008_07, year_2008_06, year_2008_05, year_2008_04,\
      year_2008_03, year_2008_02, year_2008_01
-
-
+from year_2010 import year_2010_12, year_2010_11, year_2010_10, year_2010_09,\
+     year_2010_08, year_2010_07, year_2010_06, year_2010_05, year_2010_04,\
+     year_2010_03, year_2010_02, year_2010_01
 
 
 
@@ -333,6 +334,82 @@ def main():
     text_file.write(chart.htmlcontent)
     text_file.close()
     ###end year 2011###
+    #####year 2010#####
+    list_inj = []
+    list_fata = []
+    lis = year_2010_01()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_02()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_03()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_04()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_05()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_06()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_07()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_08()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_09()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_10()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_11()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    lis = year_2010_12()
+    fata = lis[0]
+    inj = lis[1]
+    list_inj.append(inj)
+    list_fata.append(fata)
+    
+    chart = multiBarChart(width=500, height=400, x_axis_format=None)
+    xdata = mo
+    ydata1 = list_inj
+    ydata2 = list_fata
+
+    chart.add_serie(name="INJURED", y=ydata1, x=xdata)
+    chart.add_serie(name="FATALITIES", y=ydata2, x=xdata)
+    chart.buildhtml()
+    
+    text_file = open("year_2010.html", "w")
+    text_file.write(chart.htmlcontent)
+    text_file.close()
     
     ####year 2008#####
     list_inj = []
