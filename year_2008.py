@@ -19,9 +19,9 @@ def year_2008_12():
 
 
 def year_2008_11():
-    city = ['Mai Kaen','Panare','Yarang','Bannang Sata','Nong Chik','Khok Pho','Rueso','Rueso','Rueso','Rueso','Mueang Yala','Unknown','Chanae district','Sungai Padi','Yaha','Takua Thung','Yarang','Khok Pho','Rueso','Rueso','Sungai Padi','Chanae','Chanae','Yarang','Mayo','Rueso','Rueso']
-    fata = ['1','0','1','0','1','0','0','0','0','3','1','1','1','1','1','1','0','0','0','3','1','0','0','0','1','3','0']
-    inju = ['5','0','0','3','0','2','3','0','0','36','33','0','0','0','0','0','0','6','7','0','0','0','0','1','0','0','8']
+    city = ['Bangkok', 'Bangkok', 'Bangkok', 'DonMueang', 'Bangkok', 'Unknown', 'Bangkok', 'Yala', 'Muang', 'Narathiwat', 'KhlongToey', 'Bangkok', 'Muang', 'Bangkok', 'Unknown', 'Bangkok', 'Sukhirin', 'Sukhirin', 'Sukhirin', 'Ternate', 'Ternate', 'Bacho', 'Rusoh']
+    fata = ['0', '1', '0', '0', '0', '1', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1']
+    inju = ['0', '46', '1', '2', '0', '0', '22', '0', '0', '1', '15', '3', '0', '1', '0', '0', '0', '0', '70', '0', '0', '0', '1']
 
 
     inj = 0
