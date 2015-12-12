@@ -36,9 +36,9 @@ def year_2012_07():
     inju = ['3', '0', '0', '0', '1', '2', '3', '0', '1', '2', '2', '8', '8', '1', '1', '5', '1', '1', '1', '0', '0', '0', '1', '3', '0', '0', '0', '3', '12', '6', '5', '1', '0']
 
 def year_2012_06():
-    city =[]
-    fata = []
-    inju = []
+    city =['PaseYawo', 'Phraiwan', 'Kaphodistrict', 'KrongPinangdistrict', 'Ramandistrict', 'Sukhirindistrict', 'Ramandistrict', 'SiSakhondistrict', 'KrongPinangdistrict', 'Chanaedistrict', 'ThungYangDaengdistrict', 'Yarang', 'PorMing', 'RusaMilae', 'SungaiPadi', 'Kaphodistrict', 'Prajan', 'PakaHarang']
+    fata = ['2', '0', '3', '1', '1', '0', '0', '1', '3', '0', '2', '0', '1', '0', '2', '0', '0', '1']
+    inju = ['2', '0', '3', '1', '1', '0', '0', '1', '3', '0', '2', '0', '1', '0', '2', '0', '0', '1']
 
 def year_2012_05():
     city =[]
