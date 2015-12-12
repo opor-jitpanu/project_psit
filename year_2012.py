@@ -64,9 +64,11 @@ def year_2012_02():
     inju = ['0', '3', '1', '4', '4', '3', '2', '1', '0', '10', '13', '2', '0', '1', '2', '0', '0', '2', '0']
 
 def year_2012_01():
-    city =[]
-    fata = []
-    inju = []
+    city = ['NongChikdistrict', 'Rangae', 'SatengNok', 'SaiBuridistrict', 'Mueangdistrict', 'Karubi', 'Taluban', 'ThanTo', 'Ratsada', 'Rangaedistrict', 'BanBorHin', 'KhlongMai', 'Rueso', 'Kraso']
+    fata = ['0', '0', '2', '0', '0', '1', '2', '0', '1', '0', '0', '1', '2', '2']
+    inju = ['1', '0', '0', '5', '0', '0', '0', '3', '0', '2', '1', '0', '3', '0']
+
+
 def test():
     print("enter year or type all for all")
     year = input()
@@ -75,12 +77,12 @@ def test():
         mont = input()
         if mont == '12':
             inj = 99
-            year_2014_12(inj)
+            year_2012_12(inj)
             print(inj)
-            
-            
+
+
 test()
-    
+
 
 
 
