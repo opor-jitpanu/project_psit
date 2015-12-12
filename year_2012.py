@@ -54,9 +54,9 @@ def year_2012_04():
     inju = ['1', '2', '0', '0', '8', '4', '1', '0', '0', '0', '8', '0', '0', '1', '0', '0', '4']
 
 def year_2012_03():
-    city =[]
-    fata = []
-    inju = []
+    city = ['Maelan', 'HatYai', 'Mueang', 'Mueang', 'Rangae', 'Bo-ngo', 'Rueso', 'Rangae', 'BanBurangae', 'Yarang', 'Waeng', 'Raman', 'BanTotuwor', 'Unknown', 'Rangae', 'BanRae', 'BanKaheng', 'BanPoyoh', 'Yingor', 'BanJabapaeh', 'BanJohKuyae', 'EinHaBesor', 'Kalo', 'Bacho', 'KampungSompoi', 'BanTulo', 'BanTocha', 'BanYaba', 'KrongPinang', 'TakBai', 'BanKrawa', 'Purong', 'SiSakhon', 'Kuchingruepa', 'BanJohKuyae', 'BanKalapho', 'KhokPho', 'ThaRuea', 'Rusamilae', 'Mueang', 'Ruesodistrict']
+    fata = ['0', '14', '4', '4', '0', '0', '1', '0', '1', '1', '0', '1', '1', '1', '0', '1', '1', '1', '1', '0', '0', '0', '2', '0', '0', '1', '1', '4', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+    inju = ['1', '400', '35', '35', '0', '2', '0', '0', '3', '4', '0', '0', '4', '0', '0', '1', '1', '0', '0', '0', '2', '4', '0', '6', '6', '0', '1', '1', '2', '7', '1', '1', '1', '2', '0', '0', '0', '0', '0', '0', '10']
 
 def year_2012_02():
     city =[]
