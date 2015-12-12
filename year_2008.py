@@ -154,9 +154,9 @@ def year_2008_05():
 
 
 def year_2008_04():
-    city = ['Panare', 'Rangae', 'Bacho', 'SungaiPadi', 'Chehe', 'Todeng', 'Rangae', 'MarueboOk', 'MarueboOk', 'KhokKhian', 'TroBon', 'Betong', 'Panare', 'Muang', 'TuaNgor', 'BanPongsata', 'Yarang']
-    fata = ['0', '0', '2', '1', '0', '0', '0', '0', '0', '0', '0', '0', '3', '0', '0', '0', '0']
-    inju = ['1', '2', '0', '0', '8', '4', '1', '0', '0', '0', '8', '0', '0', '1', '0', '0', '4']
+    city = ['Unknown', 'Saiburi', 'Pattani', 'Unknown', 'Unknown', 'JohIRong', 'Yarang', 'KhokPho', 'Yala', 'NongChik', 'Unknown', 'NongChik', 'NongChik', 'Ra-ngae', 'SabaYoi', 'Raman', 'ChoIRong', 'Unknown', 'JohIRong', 'SabaYoi', 'SungaiKolok']
+    fata = ['1', '1', '1', '1', '1', '0', '5', '1', '0', '1', '2', '1', '1', '1', '1', '1', '0', '1', '0', '1', '0']
+    inju = ['1', '1', '0', '0', '0', '1', '1', '0', '13', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0']
 
 
 
