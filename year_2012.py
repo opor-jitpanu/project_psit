@@ -48,11 +48,10 @@ def year_2012_05():
 
 
 
-
 def year_2012_04():
-    city =[]
-    fata = []
-    inju = []
+    city = ['Panare', 'Rangae', 'Bacho', 'SungaiPadi', 'Chehe', 'Todeng', 'Rangae', 'MarueboOk', 'MarueboOk', 'KhokKhian', 'TroBon', 'Betong', 'Panare', 'Muang', 'TuaNgor', 'BanPongsata', 'Yarang']
+    fata = ['0', '0', '2', '1', '0', '0', '0', '0', '0', '0', '0', '0', '3', '0', '0', '0', '0']
+    inju = ['1', '2', '0', '0', '8', '4', '1', '0', '0', '0', '8', '0', '0', '1', '0', '0', '4']
 
 def year_2012_03():
     city =[]
