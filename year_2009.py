@@ -40,9 +40,9 @@ def year_2009_11():
 
 def year_2009_10():
 
-    city = []
-    fata = []
-    inju = []
+    city = ['Ra-ngae', 'Muang', 'NongChik', 'KhokPho', 'Pattani', 'Unknown', 'Pattani', 'Muang', 'MaeLaen', 'KrongPinang', 'Yarang', 'Yala', 'ThanTo', 'Ra-ngae', 'Yarang', 'Muang', 'Ra-ngae', 'Yala', 'Takbai', 'Mayo', 'NongChik', 'Unknown', 'Muang', 'Unknown', 'Unknown', 'Unknown', 'MaeLaen', 'SungaiKolok', 'SungaiKolok', 'Mayo', 'Mayo', 'KhokPho']
+    fata = ['1', '1', '0', '1', '2', '1', '2', '1', '1', '1', '1', '1', '1', '1', '0', '1', '1', '0', '1', '0', '0', '1', '1', '1', '0', '1', '1', '1', '2', '1', '1', '0']
+    inju = ['0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '0', '1', '0', '0', '3', '2', '0', '27', '0', '0', '0', '0', '0', '0', '1', '0', '0', '27', '22', '0', '0', '17']
 
     city_max =
     la =
