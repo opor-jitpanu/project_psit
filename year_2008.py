@@ -12,7 +12,7 @@ def year_2008_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -31,7 +31,7 @@ def year_2008_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -50,7 +50,7 @@ def year_2008_10():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -69,7 +69,7 @@ def year_2008_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -88,7 +88,7 @@ def year_2008_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -107,7 +107,7 @@ def year_2008_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -127,7 +127,7 @@ def year_2008_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -147,7 +147,7 @@ def year_2008_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -167,7 +167,7 @@ def year_2008_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -186,7 +186,7 @@ def year_2008_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
     
 def year_2008_02():
@@ -203,7 +203,7 @@ def year_2008_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
 
@@ -213,9 +213,6 @@ def year_2008_01():
     city = ['Unknown', 'Unknown', 'NaPraduandKokPhoeDistricts', 'RangaeDistrict', 'Yalatown', 'Chanaedistrict', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown', 'KhokPho(District)', 'Unknown', 'Unknown', 'BannangSataDistrict', 'Unknown', 'SungaiKolokdistrict']
     fata = ['2', '5', '5', '0', '0', '8', '0', '0', '1', '1', '1', '1', '0', '0', '0', '1', '0']
     inju = ['0', '0', '0', '7', '44', '0', '37', '3', '0', '0', '0', '0', '2', '1', '1', '0', '32']
-
-
-
     inj = 0
     fat = 0
     list_test = []
@@ -223,25 +220,8 @@ def year_2008_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [inj,fat,city_max,la,long]
+    all_list = [fat,inj]
     return all_list
 
-
-
-
-
-def test():
-    print("enter year or type all for all")
-    year = input()
-    if year == '2008':
-        print('enter your mont or type all for all')
-        mont = input()
-        if mont == '12':
-            inj = 99
-            year_2008_12(inj)
-            print(inj)
-
-
-test()
 
 

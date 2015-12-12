@@ -165,14 +165,3 @@ def year_2012_01():
         fat += int(j)
     all_list = [fat,inj]
     return all_list
-
-
-
-
-
-
-
-
-
-
-
