@@ -16,7 +16,7 @@ def year_2014_12():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long] #######
     return all_list
 
 def year_2014_11():
@@ -25,8 +25,9 @@ def year_2014_11():
 
     fata = ['1', '0', '0', '2', '0', '1', '2', '1', '0', '0', '1', '0', '0', '0', '2', '1', '1', '2']
     inju = ['1', '2', '2', '0', '1', '0', '0', '1', '1', '0', '1', '1', '4', '0', '3', '0', '3', '7']
-    city_max = ''
-
+    city_max = 'BannangSatadistrict'
+    la = '6.266667'
+    long = '101.264444'
     inj = 0
     fat = 0
     list_test = []
@@ -34,7 +35,7 @@ def year_2014_11():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_10():
@@ -43,7 +44,9 @@ def year_2014_10():
             'ThungYangDaengdistrict', 'ThungYangDaengdistrict', 'ThungYangDaengdistrict', 'ThungYangDaengdistrict', 'ThungYangDaengdistrict', 'Ruesodistrict', 'NongChikdistrict', 'JohBoh', 'Unknown']
      fata = ['0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0']
      inju = ['0', '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '4', '0', '0', '0', '0', '0', '0', '2', '0', '0', '6']
- 
+     city_max = 'ThungYangDaengdistrict'
+     la = '6.6175'
+     long = '101.425833'
      inj = 0
      fat = 0
      list_test = []
@@ -51,17 +54,18 @@ def year_2014_10():
          inj += int(i)
      for j in fata:
          fat += int(j)
-     all_list = [fat,inj]
+     all_list = [fat,inj,city_max,la,long]
      return all_list
 
 def year_2014_09():
-
     city = ['Talopuyo', 'LanChang', 'MuangYaladistrict', 'Rueso', 'ThanTodistrict', 'Rangaedistrict', \
             'Thephadistrict', 'Yaringdistrict', 'KhokPhodistrict', 'KhokPhodistrict', 'Batong']
  
     fata = ['0', '1', '0', '1', '0', '0', '1', '0', '1', '2', '0']
     inju = ['2', '0', '1', '2', '0', '0', '0', '0', '5', '0', '0']
- 
+    city_max = 'KhokPhodistrict'
+    la = '6.729444'
+    long = '101.096111'
     inj = 0
     fat = 0
     list_test = []
@@ -69,7 +73,7 @@ def year_2014_09():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_08():
@@ -78,6 +82,9 @@ def year_2014_08():
             'ThungYangDaengdistrict', 'TakBaidistrict', 'Yahadistrict', 'Mayodistrict', 'Wankra', 'BueRe', 'Yahadistrict']
     fata = ['1', '1', '1', '0', '1', '0', '0','0', '0', '0', '1', '2', '0', '0', '1', '2', '0', '0', '0', '2']
     inju = ['0', '2', '1', '1', '0', '0', '0','2', '2', '0', '2', '0', '1', '4', '0', '1', '3', '5', '1', '0']
+    city_max = 'BannangSatadistrict'
+    la = '6.266667'
+    long = '101.264444'
     inj = 0
     fat = 0
     list_test = []
@@ -85,7 +92,7 @@ def year_2014_08():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 def year_2014_07():
     city = ['Rueso', 'TohBala', 'NongChikdistrict', 'Sukhirindistrict', 'LamMai', 'Betong', 'ThaKham', 'NaPradu', \
@@ -96,6 +103,9 @@ def year_2014_07():
             '1', '0', '3', '2', '0', '0', '0', '0', '1', '0', '0']
     inju = ['1', '5', '0', '3', '1', '35', '0', '8', '0','3', '0', '0', '0', '5', '0', '5', '1', '0', \
             '1', '1', '0', '5', '6', '1', '2', '1', '0', '1']
+    city_max = 'Ramandistrict'
+    la = '6.478333'
+    long = '101.424167'
     inj = 0
     fat = 0
     list_test = []
@@ -103,7 +113,7 @@ def year_2014_07():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_06():
@@ -116,6 +126,9 @@ def year_2014_06():
             '1', '0', '1', '0', '0', '0', '0', '1', '2', '1', '2', '0', '1']
     inju = ['1', '0', '0', '0', '2', '2', '5', '0', '2', '0', '0', '0', '1', '1', \
             '2', '2', '0', '2', '5', '2', '0', '0', '0', '0', '0', '0', '1']
+    city_max = 'ChangPhueak'
+    la = '18.803232'
+    long = '98.981062'
     inj = 0
     fat = 0
     list_test = []
@@ -123,7 +136,7 @@ def year_2014_06():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_05():
@@ -142,6 +155,9 @@ def year_2014_05():
     inju = ['0', '0', '10', '1', '0', '0', '0', '2', '0', '0', '0', '1', '3', '5', '3', '1', '0', '1', '3', \
             '10', '10', '0', '0', '0', '0', '0', '0', '0', '0', '0', '5', '0', '0', '0', '0', '0', '0', '0', \
             '0', '0', '0', '0', '9', '0', '0', '1', '0', '0', '0', '2', '0', '0', '0', '0','0', '0', '0', '0', '0', '5', '1']
+    city_max = 'SungaiPadidistrict'
+    la = '6.085278'
+    long = '101.880278'
     inj = 0
     fat = 0
     list_test = []
@@ -149,7 +165,7 @@ def year_2014_05():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_04():
@@ -161,6 +177,9 @@ def year_2014_04():
             '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '3', '1']
     inju = ['0', '0', '1', '15', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '1', '0',\
             '2', '0', '0', '0', '0', '6', '6', '6', '6', '2', '0', '0', '0', '4']
+    city_max = 'KholoTanyong'
+    la = '6.844444, 101.178611'
+    long = '6.844444, 101.178611'
     inj = 0
     fat = 0
     list_test = []
@@ -168,7 +187,7 @@ def year_2014_04():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_03():
@@ -187,6 +206,9 @@ def year_2014_03():
     inju = ['0', '2', '3', '0', '0', '0', '0', '0', '3', '0', '0', '0', '1', '0', '0', '0', '0', '0', '4', '0', '0', '0', \
             '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '3', '0', '0', '3', '0', '2', '1', '1', '0', '1', \
             '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '1']
+    city_max = 'BangSai'
+    la = '14.212778'
+    long = '100.498333'
     inj = 0
     fat = 0
     list_test = []
@@ -194,7 +216,7 @@ def year_2014_03():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_02():
@@ -211,6 +233,9 @@ def year_2014_02():
     inju = ['1', '0', '0', '1', '2', '0', '0', '0', '0', '0', '0', '2', '2', '3', '0', '0', '0', '0', '0', '21', '0', '0', '30', '6', '2',\
             '0', '2', '1', '0', '3', '0', '3', '0', '0', '0', '2', '0', '4', '6', '0', '6', '0', '0', '2', '2', '3', '2', '0', '0', '0', '0',\
             '2', '0', '0', '0', '7', '2', '3', '0']
+    city_max = 'Kabangdistrict'
+    la = '6.4275'
+    long = '101.019167'
     inj = 0
     fat = 0
     list_test = []
@@ -218,7 +243,7 @@ def year_2014_02():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 def year_2014_01():
@@ -232,6 +257,9 @@ def year_2014_01():
             '0', '0', '0', '0', '0', '0', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '1', '0', '0']
     inju = ['2', '0', '2', '1', '0', '0', '0', '0', '0', '1', '0', '1', '2', '3', '1', '0', '2', '3', '5', '1', '14', '14', '0', '2', '36',\
             '0', '0', '0', '0', '2', '1', '1', '0', '2', '0', '0', '0', '0', '1', '4', '4', '1', '1', '0', '0', '0', '1', '1', '0', '0', '1']
+    city_max = 'Rangaedistrict'
+    la = '6.296389'
+    long = '101.728333'
     inj = 0
     fat = 0
     list_test = []
@@ -239,7 +267,7 @@ def year_2014_01():
         inj += int(i)
     for j in fata:
         fat += int(j)
-    all_list = [fat,inj]
+    all_list = [fat,inj,city_max,la,long]
     return all_list
 
 
