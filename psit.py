@@ -1,7 +1,7 @@
 from nvd3 import stackedAreaChart
 import pygmaps
-
 from nvd3 import multiBarChart
+
 from year_2011 import year_2011_12, year_2011_11, year_2011_10, year_2011_09,\
      year_2011_08, year_2011_07, year_2011_06, year_2011_05, year_2011_04,\
      year_2011_03, year_2011_02, year_2011_01
@@ -23,6 +23,7 @@ from year_2010 import year_2010_12, year_2010_11, year_2010_10, year_2010_09,\
 from year_2009 import year_2009_12, year_2009_11, year_2009_10, year_2009_09,\
      year_2009_08, year_2009_07, year_2009_06, year_2009_05, year_2009_04,\
      year_2009_03, year_2009_02, year_2009_01
+from citymax_la_long import la_2014, la_2013, la_2012, la_2011, la_2010, la_2009, la_2008
 
 
 
@@ -32,139 +33,85 @@ def main():
     ######year 2014#####
     list_inj = []
     list_fata = []
-    list_la = []     ###
-    list_long = []    ###
     list_city = []
     
     lis = year_2014_01()
     fata = lis[0]
     inj = lis[1]
-    la = lis[3]  ###
-    long = lis[4] ###
+
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
+
 
     
     lis = year_2014_02()
     fata = lis[0]
     inj = lis[1]
-    la = lis[3]  ###
-    long = lis[4] ###
+
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
+
     
     lis = year_2014_03()
     fata = lis[0]
     inj = lis[1]
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
+
     
     lis = year_2014_04()
     fata = lis[0]
     inj = lis[1]
- 
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_05()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_06()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_07()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_08()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_09()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_10()
     fata = lis[0]
     inj = lis[1]
-
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_11()
     fata = lis[0]
     inj = lis[1]
- 
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     lis = year_2014_12()
     fata = lis[0]
     inj = lis[1]
-  
-    la = lis[3]  ###
-    long = lis[4] ###
     list_inj.append(inj)
     list_fata.append(fata)
-    list_la.append(la)    ###
-    list_long.append(long)  ###
     
     chart = multiBarChart(width=500, height=400, x_axis_format=None)
     xdata = mo
@@ -651,12 +598,53 @@ def main():
                         ####plot map####
 
     ######year 2014#
-    city = 'yala'
-    la = '6.5399500'
-    long = '101.2812800'
-    
+    list_la = []
+    list_long = []
     new_la = []
     new_long = []
+
+    lis = la_2014()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2013()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2012()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2011()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2010()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2009()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+
+    lis = la_2008()
+    la = lis[1]
+    long = lis[2]
+    list_la.append(la)
+    list_long.append(long)
+    
     for i in list_la:
         num = float(i)
         new_la.append(num)
@@ -664,25 +652,21 @@ def main():
         num2 = float(j)
         new_long.append(num2)
         
-    mymap = pygmaps.maps(new_la[0], new_long[0], 24)
+    mymap = pygmaps.maps(new_la[0], new_long[0], 14)
      
-    path = [(new_la[1], new_long[1]),
+    path = [(new_la[0], new_long[0]),
+            (new_la[1], new_long[1]),
             (new_la[2], new_long[2]),
             (new_la[3], new_long[3]),
             (new_la[4], new_long[4]),
             (new_la[5], new_long[5]),
-            (new_la[6], new_long[6]),
-            (new_la[7], new_long[7]),
-            (new_la[8], new_long[8]),
-            (new_la[9], new_long[9]),
-            (new_la[10], new_long[10]),
-            (new_la[11], new_long[11])]
+            (new_la[6], new_long[6]),]
  
     for point in path:
         mymap.addpoint(point[0], point[1])
  
 
-    mymap.draw('./mymap_2014.html')
+    mymap.draw('./map_all.html')
 
     #########END 2014##########
     
