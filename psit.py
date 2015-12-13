@@ -34,6 +34,8 @@ def main():
     list_fata = []
     list_la = []     ###
     list_long = []    ###
+    list_city = []
+    
     lis = year_2014_01()
     fata = lis[0]
     inj = lis[1]
@@ -649,6 +651,9 @@ def main():
                         ####plot map####
 
     ######year 2014#
+    city = 'yala'
+    la = '6.5399500'
+    long = '101.2812800'
     
     new_la = []
     new_long = []
@@ -658,6 +663,7 @@ def main():
     for j in list_long:
         num2 = float(j)
         new_long.append(num2)
+        
     mymap = pygmaps.maps(new_la[0], new_long[0], 24)
      
     path = [(new_la[1], new_long[1]),
